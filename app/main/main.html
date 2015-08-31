@@ -1,0 +1,27 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr ng-repeat="team in teams" class="{{team.slug}}">
+      <td class="info">{{team.name}}</td>
+      <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, available: game.available && !team.chosen}" ng-click="select(team, teams, game); column(game)">{{game.opponent}}</td>
+    </tr>
+  </tbody>
+</table>
+<!-- ng-click="game.selected = !game.selected; team.chosen = !team.chosen" -->

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Pac-12 Survivor Pool</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/css/ripples.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link href="lib.css" rel="stylesheet">
+      <link rel="stylesheet" href="app.css">
+  </head>
+  <body ng-app="SurvivorApp">
+
+      <div ng-include="'main/partials/nav.html'"></div>
+
+      <div class="container" ng-view=""></div>
+
+      <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.js"></script>
+
+      <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+      <script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.js"></script>
+
+      <script>
+        $(document).ready(function() {
+          $.material.init();
+        });
+      </script>
+
+      <script src="lib.js"></script>
+      <script src="templates.js"></script>
+      <script src="app.js"></script>
+
+  </body>
+</html>

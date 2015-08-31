@@ -1,0 +1,125 @@
+.container {
+  // background-color: blue;
+}
+
+table {
+  tr {
+    height: 70px;
+    td {
+      width: 70px;
+      padding-top: 10px;
+      font-size: 0.7em;
+      color: gray;
+      background-color: #ACADBC;
+
+      &:first-of-type {
+        background-image: url('images/pac12_650w.jpg');
+        background-repeat: no-repeat;
+      }
+
+      &:hover {
+        cursor: not-allowed;
+        background-color: #F6FFF8;
+      }
+
+      &.available {
+        cursor: pointer;
+        color: black;
+        background-color: rgb(238, 238, 238);
+      }
+
+      &.active {
+        background-color: #F6FFF8;
+        border: 1px solid green;
+        font-weight: 900;
+        cursor: pointer;
+        color: black;
+      }
+
+    }
+    &.california {
+      td:first-of-type {
+        background-position-x: -118px;
+        background-position-y: -113px;
+      }
+    }
+
+    &.oregon {
+      td:first-of-type {
+        background-position-x: -439px;
+        background-position-y: -22px;
+      }
+    }
+
+    &.oregon-st {
+      td:first-of-type {
+        background-position-x: -547px;
+        background-position-y: -22px;
+      }
+    }
+
+    &.stanford {
+      td:first-of-type {
+        background-position-x: -12px;
+        background-position-y: -113px;
+      }
+    }
+
+    &.washington {
+      td:first-of-type {
+        background-position-x: -234px;
+        background-position-y: -17px;
+      }
+    }
+
+    &.washington-st {
+      td:first-of-type {
+        background-position-x: -336px;
+        background-position-y: -17px;
+      }
+    }
+
+    &.arizona {
+      td:first-of-type {
+        background-position-x: -453px;
+        background-position-y: -113px;
+      }
+    }
+
+    &.arizona-st {
+      td:first-of-type {
+        background-position-x: -547px;
+        background-position-y: -113px;
+      }
+    }
+
+    &.colorado {
+      td:first-of-type {
+        background-position-x: -127px;
+        background-position-y: -17px;
+      }
+    }
+
+    &.ucla {
+      td:first-of-type {
+        background-position-x: -340px;
+        background-position-y: -113px;
+      }
+    }
+
+    &.usc {
+      td:first-of-type {
+        background-position-x: -229px;
+        background-position-y: -110px;
+      }
+    }
+
+    &.utah {
+      td:first-of-type {
+        background-position-x: -13px;
+        background-position-y: -19px;
+      }
+    }
+
+  }
+}
