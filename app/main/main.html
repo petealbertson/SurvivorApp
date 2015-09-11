@@ -19,8 +19,10 @@
   </thead>
   <tbody >
     <tr ng-repeat="team in teams" class="{{team.slug}}">
-      <td class="info">{{team.name}}</td>
-      <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, available: game.available && !team.chosen}" ng-click="select(team, teams, game); column(game)">{{game.opponent}}</td>
+      <td class="info">{{team.$id}}</td>
+      <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, available: game.available && !team.chosen}" ng-click="column(teams, game); select(team, teams, game)">{{game.opponent}}</td>
+      <!-- <td ng-repeat="game in games">{{games[$index][$parent.$index].awayteam}}</td> -->
+
     </tr>
   </tbody>
 </table>

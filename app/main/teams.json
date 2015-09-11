@@ -1,10 +1,10 @@
 {
   "teams": {
     "California": {
-
       "slug": "california",
       "chosen": false,
-      "schedule": {
+      "schedule": [
+        {
           "week": 1,
           "opponent": "Grambling St",
           "selected": false,
@@ -82,12 +82,13 @@
           "selected": false,
           "available": true
         }
+      ]
     },
 
     "Oregon": {
       "slug": "oregon",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "EWU",
@@ -166,14 +167,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Oregon St",
+    "Oregon St": {
       "slug": "oregon-st",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Weber St",
@@ -252,14 +252,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Stanford",
+      "Stanford": {
       "slug": "stanford",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "at Northwestern",
@@ -338,14 +337,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Washington",
+    "Washington": {
       "slug": "washington",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "at Boise St",
@@ -424,14 +422,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Washington St",
+    "Washington St": {
       "slug": "washington-st",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Portland St",
@@ -510,14 +507,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Arizona",
+    "Arizona": {
       "slug": "arizona",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "UTSA",
@@ -596,14 +592,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Arizona St",
+    "Arizona St": {
       "slug": "arizona-st",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Texas A&M",
@@ -682,14 +677,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Colorado",
+    "Colorado": {
       "slug": "colorado",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "at Hawaii",
@@ -768,14 +762,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "UCLA",
+    "UCLA": {
       "slug": "ucla",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Virginia",
@@ -854,14 +847,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "USC",
+    "USC": {
       "slug": "usc",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Arkansas St",
@@ -940,14 +932,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Utah",
+    "Utah": {
       "slug": "utah",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Michigan",
@@ -1026,14 +1017,13 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     },
 
-    {
-      "name": "Bye",
+    "Bye": {
       "slug": "bye",
       "chosen": false,
-      "schedule": {
+      "schedule": [
         {
           "week": 1,
           "opponent": "Bye",
@@ -1112,7 +1102,7 @@
           "selected": false,
           "available": true
         }
-      }
+      ]
     }
 
 

@@ -7,6 +7,8 @@ table tr td {
   font-size: 0.7em;
   color: gray;
   background-color: #ACADBC;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
 }
 table tr td:first-of-type {
   background-image: url("images/pac12_650w.jpg");
@@ -15,6 +17,8 @@ table tr td:first-of-type {
 table tr td:hover {
   cursor: not-allowed;
   background-color: #F6FFF8;
+  -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
 }
 table tr td.available {
   cursor: pointer;

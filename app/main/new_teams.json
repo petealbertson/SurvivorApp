@@ -1,0 +1,60 @@
+{
+  "teams": {
+    "California": {
+      "chosen": false,
+      "slug": "california"
+    },
+
+    "Oregon": {
+      "chosen": false,
+      "slug": "oregon"
+    },
+
+    "Oregon St": {
+      "chosen": false,
+      "slug": "oregon-st"
+    },
+
+    "Stanford": {
+      "chosen": false,
+      "slug": "stanford"
+    },
+
+    "Washington": {
+      "chosen": false,
+      "slug": "washington"
+    },
+
+    "Washington St": {
+      "chosen": false,
+      "slug": "washington-st"
+    }
+  },
+
+  "games": {
+    "one": {
+      "Stanford": "at Northwestern",
+      "Washington": "at Boise St",
+      "California": "Grambling St",
+      "Oregon": "EWU",
+      "Oregon St": "Weber St",
+      "Washington St": "Portland St"
+    },
+    "two": {
+      "Stanford": "UCF",
+      "Washington": "Sacramento St",
+      "California": "San Diego St",
+      "Oregon": "at Michigan St",
+      "Oregon St": "at Michigan",
+      "Washington": "at Rutgers"
+    },
+    "three": {
+      "Stanford": "at USC",
+      "Washington": "Utah St",
+      "California": "at Texas",
+      "Oregon": "Georgia St",
+      "Oregon St": "San Jose St",
+      "Washington": "Wyoming"
+    }
+  }
+}
