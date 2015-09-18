@@ -1,126 +1,160 @@
+@import 'utilities/index';
+@import 'nav';
+
+
 .container {
   // background-color: blue;
 }
 
+body {
+  background-color: #fff;
+}
+
+
 table {
-  tr {
-    height: 70px;
-    td {
-      width: 70px;
-      padding-top: 10px;
-      font-size: 0.7em;
-      color: gray;
-      background-color: #ACADBC;
-      transition: all 1s ease;
+  font-family: 'Prohibition';
+  font-style: italic;
+  background-color: $off_white;
 
-      &:first-of-type {
-        background-image: url('images/pac12_650w.jpg');
-        background-repeat: no-repeat;
-      }
+  thead {
+    tr {
+      background-color: $dark_blue;
+      color: #fff;
+      height: 50px;
 
-      &:hover {
-        cursor: not-allowed;
-        background-color: #F6FFF8;
-        transition: all 300ms ease;
-      }
-
-      &.available {
-        cursor: pointer;
-        color: black;
-        background-color: rgb(238, 238, 238);
-      }
-
-      &.active {
-        background-color: #F6FFF8;
-        border: 1px solid green;
-        font-weight: 900;
-        cursor: pointer;
-        color: black;
-      }
-
-    }
-    &.california {
-      td:first-of-type {
-        background-position-x: -118px;
-        background-position-y: -113px;
+      th {
+        font-size: 28px;
+        text-align: center;
       }
     }
+  }
+  tbody {
+    tr {
+      height: 67px;
+      border: none;
+      td {
+        text-align: center;
+        min-width: 70px;
+        padding-top: 10px;
+        font-size: 0.7em;
+        color: gray;
+        transition: all 1s ease;
+        border-top: none;
 
-    &.oregon {
-      td:first-of-type {
-        background-position-x: -439px;
-        background-position-y: -22px;
-      }
-    }
+        &:first-of-type {
+          font-size: 1.5em;
+          color: $black;
+          vertical-align: middle;
+          width: 9em;
+          // background-color: #fff;
+        }
 
-    &.oregon-st {
-      td:first-of-type {
-        background-position-x: -547px;
-        background-position-y: -22px;
-      }
-    }
 
-    &.stanford {
-      td:first-of-type {
-        background-position-x: -12px;
-        background-position-y: -113px;
-      }
-    }
+        &:hover {
+          cursor: not-allowed;
+          // background-color: $pink;
+          transition: all 300ms ease;
+        }
 
-    &.washington {
-      td:first-of-type {
-        background-position-x: -234px;
-        background-position-y: -17px;
-      }
-    }
+        &.available {
+          cursor: pointer;
+          color: black;
+          // background-color: rgb(238, 238, 238);
+        }
 
-    &.washington-st {
-      td:first-of-type {
-        background-position-x: -336px;
-        background-position-y: -17px;
-      }
-    }
+        &.active {
+          // background-color: #F6FFF8;
+          // border: 1px solid green;
+          font-weight: 900;
+          cursor: pointer;
+          color: black;
+        }
 
-    &.arizona {
-      td:first-of-type {
-        background-position-x: -453px;
-        background-position-y: -113px;
       }
-    }
+      // &.california {
+      //   td:first-of-type {
+      //     background-position-x: -118px;
+      //     background-position-y: -113px;
+      //   }
+      // }
 
-    &.arizona-st {
-      td:first-of-type {
-        background-position-x: -547px;
-        background-position-y: -113px;
-      }
-    }
+      // &.oregon {
+      //   td:first-of-type {
+      //     background-position-x: -439px;
+      //     background-position-y: -22px;
+      //   }
+      // }
 
-    &.colorado {
-      td:first-of-type {
-        background-position-x: -127px;
-        background-position-y: -17px;
-      }
-    }
+      // &.oregon-st {
+      //   td:first-of-type {
+      //     background-position-x: -547px;
+      //     background-position-y: -22px;
+      //   }
+      // }
 
-    &.ucla {
-      td:first-of-type {
-        background-position-x: -340px;
-        background-position-y: -113px;
-      }
-    }
+      // &.stanford {
+      //   td:first-of-type {
+      //     background-position-x: -12px;
+      //     background-position-y: -113px;
+      //   }
+      // }
 
-    &.usc {
-      td:first-of-type {
-        background-position-x: -229px;
-        background-position-y: -110px;
-      }
-    }
+      // &.washington {
+      //   td:first-of-type {
+      //     background-position-x: -234px;
+      //     background-position-y: -17px;
+      //   }
+      // }
 
-    &.utah {
-      td:first-of-type {
-        background-position-x: -13px;
-        background-position-y: -19px;
-      }
+      // &.washington-st {
+      //   td:first-of-type {
+      //     background-position-x: -336px;
+      //     background-position-y: -17px;
+      //   }
+      // }
+
+      // &.arizona {
+      //   td:first-of-type {
+      //     background-position-x: -453px;
+      //     background-position-y: -113px;
+      //   }
+      // }
+
+      // &.arizona-st {
+      //   td:first-of-type {
+      //     background-position-x: -547px;
+      //     background-position-y: -113px;
+      //   }
+      // }
+
+      // &.colorado {
+      //   td:first-of-type {
+      //     background-position-x: -127px;
+      //     background-position-y: -17px;
+      //   }
+      // }
+
+      // &.ucla {
+      //   td:first-of-type {
+      //     background-position-x: -340px;
+      //     background-position-y: -113px;
+      //   }
+      // }
+
+      // &.usc {
+      //   td:first-of-type {
+      //     background-position-x: -229px;
+      //     background-position-y: -110px;
+      //   }
+      // }
+
+      // &.utah {
+      //   td:first-of-type {
+      //     background-position-x: -13px;
+      //     background-position-y: -19px;
+      //   }
+      // }
+
     }
 
   }

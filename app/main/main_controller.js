@@ -18,6 +18,11 @@
       $scope.teams = teamArray;
       $scope.games = gameArray;
 
+      // var ref = new Firebase('https://pac12survivor.firebaseio.com/');
+      // ref.orderByKey().on("child_added", function(snapshot) {
+      //   console.log(snapshot.key());
+      // });
+
 
       $scope.select = function(team, teams, game) {
         if ((!team.chosen && game.available) || game.selected) {
@@ -26,7 +31,10 @@
           picksRef.child(team.$id).set({
             opponent: game.opponent
           });
-          // $scope.teams.$save(team, game);
+          $scope.teams.$save(team, game);
+          var teamRef = new Firebase('https://pac12survivor.firebaseio.com/' + team.$id);
+          // teamRef.orderByChild(team.schedule[game.week]);
+          console.log(team.schedule[game.week - 1]);
         }
       };
 

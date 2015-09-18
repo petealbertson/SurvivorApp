@@ -1,82 +1,67 @@
-table tr {
-  height: 70px;
+body {
+  font-family: 'Factoria';
 }
-table tr td {
-  width: 70px;
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Prohibition';
+}
+
+.navbar.navbar {
+  font-family: 'Prohibition';
+  background-color: #004B91;
+}
+.navbar.navbar .navbar-header .navbar-brand {
+  font-size: 32px;
+}
+
+body {
+  background-color: #fff;
+}
+
+table {
+  font-family: 'Prohibition';
+  font-style: italic;
+  background-color: #FBFEF9;
+}
+table thead tr {
+  background-color: #00274D;
+  color: #fff;
+  height: 50px;
+}
+table thead tr th {
+  font-size: 28px;
+  text-align: center;
+}
+table tbody tr {
+  height: 67px;
+  border: none;
+}
+table tbody tr td {
+  text-align: center;
+  min-width: 70px;
   padding-top: 10px;
   font-size: 0.7em;
   color: gray;
-  background-color: #ACADBC;
   -webkit-transition: all 1s ease;
           transition: all 1s ease;
+  border-top: none;
 }
-table tr td:first-of-type {
-  background-image: url("images/pac12_650w.jpg");
-  background-repeat: no-repeat;
+table tbody tr td:first-of-type {
+  font-size: 1.5em;
+  color: #000007;
+  vertical-align: middle;
+  width: 9em;
 }
-table tr td:hover {
+table tbody tr td:hover {
   cursor: not-allowed;
-  background-color: #F6FFF8;
   -webkit-transition: all 300ms ease;
           transition: all 300ms ease;
 }
-table tr td.available {
+table tbody tr td.available {
   cursor: pointer;
   color: black;
-  background-color: #eeeeee;
 }
-table tr td.active {
-  background-color: #F6FFF8;
-  border: 1px solid green;
+table tbody tr td.active {
   font-weight: 900;
   cursor: pointer;
   color: black;
-}
-table tr.california td:first-of-type {
-  background-position-x: -118px;
-  background-position-y: -113px;
-}
-table tr.oregon td:first-of-type {
-  background-position-x: -439px;
-  background-position-y: -22px;
-}
-table tr.oregon-st td:first-of-type {
-  background-position-x: -547px;
-  background-position-y: -22px;
-}
-table tr.stanford td:first-of-type {
-  background-position-x: -12px;
-  background-position-y: -113px;
-}
-table tr.washington td:first-of-type {
-  background-position-x: -234px;
-  background-position-y: -17px;
-}
-table tr.washington-st td:first-of-type {
-  background-position-x: -336px;
-  background-position-y: -17px;
-}
-table tr.arizona td:first-of-type {
-  background-position-x: -453px;
-  background-position-y: -113px;
-}
-table tr.arizona-st td:first-of-type {
-  background-position-x: -547px;
-  background-position-y: -113px;
-}
-table tr.colorado td:first-of-type {
-  background-position-x: -127px;
-  background-position-y: -17px;
-}
-table tr.ucla td:first-of-type {
-  background-position-x: -340px;
-  background-position-y: -113px;
-}
-table tr.usc td:first-of-type {
-  background-position-x: -229px;
-  background-position-y: -110px;
-}
-table tr.utah td:first-of-type {
-  background-position-x: -13px;
-  background-position-y: -19px;
 }
