@@ -1,5 +1,6 @@
 @import 'utilities/index';
 @import 'nav';
+@import 'login';
 
 
 .container {
@@ -33,41 +34,51 @@ table {
       height: 67px;
       border: none;
       td {
+        position: relative;
         text-align: center;
         min-width: 70px;
         padding-top: 10px;
         font-size: 0.7em;
-        color: gray;
         transition: all 1s ease;
         border-top: none;
+        vertical-align: baseline;
+        cursor: pointer;
+        transition: all 300ms ease;
+
+
 
         &:first-of-type {
           font-size: 1.5em;
-          color: $black;
-          vertical-align: middle;
           width: 9em;
-          // background-color: #fff;
         }
 
+        &.unavailable {
+          cursor: default;
+          color: gray;
 
-        &:hover {
-          cursor: not-allowed;
-          // background-color: $pink;
-          transition: all 300ms ease;
-        }
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $gray;
+            opacity: 0.9;
+          }
 
-        &.available {
-          cursor: pointer;
-          color: black;
-          // background-color: rgb(238, 238, 238);
         }
 
         &.active {
-          // background-color: #F6FFF8;
-          // border: 1px solid green;
           font-weight: 900;
           cursor: pointer;
-          color: black;
+          background-color: $pink;
+          color: #fff;
+          box-shadow: 2px 2px 2px $black;
+
+          &:before {
+            background-color: transparent;
+          }
         }
 
       }

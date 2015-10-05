@@ -1,0 +1,795 @@
+{
+  "teams": {
+    "California": {
+      "slug": "california",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Grambling St"
+        },
+        {
+          "week": 2,
+          "opponent": "San Diego St"
+        },
+        {
+          "week": 3,
+          "opponent": "at Texas"
+        },
+        {
+          "week": 4,
+          "opponent": "at Washington"
+        },
+        {
+          "week": 5,
+          "opponent": "Washington St"
+        },
+        {
+          "week": 6,
+          "opponent": "at Utah"
+        },
+        {
+          "week": 7,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 8,
+          "opponent": "at UCLA"
+        },
+        {
+          "week": 9,
+          "opponent": "USC"
+        },
+        {
+          "week": 10,
+          "opponent": "at Oregon"
+        },
+        {
+          "week": 11,
+          "opponent": "Oregon St"
+        },
+        {
+          "week": 12,
+          "opponent": "at Stanford"
+        },
+        {
+          "week": 13,
+          "opponent": "Arizona St"
+        }
+      ]
+    },
+
+    "Oregon": {
+      "slug": "oregon",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "EWU"
+        },
+        {
+          "week": 2,
+          "opponent": "at Michigan St"
+        },
+        {
+          "week": 3,
+          "opponent": "Georgia St"
+        },
+        {
+          "week": 4,
+          "opponent": "Utah"
+        },
+        {
+          "week": 5,
+          "opponent": "at Colorado"
+        },
+        {
+          "week": 6,
+          "opponent": "Washington St"
+        },
+        {
+          "week": 7,
+          "opponent": "at Washington"
+        },
+        {
+          "week": 8,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 9,
+          "opponent": "at Arizona St"
+        },
+        {
+          "week": 10,
+          "opponent": "California"
+        },
+        {
+          "week": 11,
+          "opponent": "at Stanford"
+        },
+        {
+          "week": 12,
+          "opponent": "USC"
+        },
+        {
+          "week": 13,
+          "opponent": "Oregon St"
+        }
+      ]
+    },
+
+    "Oregon St": {
+      "slug": "oregon-st",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Weber St"
+        },
+        {
+          "week": 2,
+          "opponent": "at Michigan"
+        },
+        {
+          "week": 3,
+          "opponent": "San Jose St"
+        },
+        {
+          "week": 4,
+          "opponent": "Stanford"
+        },
+        {
+          "week": 5,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 6,
+          "opponent": "at Arizona"
+        },
+        {
+          "week": 7,
+          "opponent": "at Washington St"
+        },
+        {
+          "week": 8,
+          "opponent": "Colorado"
+        },
+        {
+          "week": 9,
+          "opponent": "at Utah"
+        },
+        {
+          "week": 10,
+          "opponent": "UCLA"
+        },
+        {
+          "week": 11,
+          "opponent": "at California"
+        },
+        {
+          "week": 12,
+          "opponent": "Washington"
+        },
+        {
+          "week": 13,
+          "opponent": "at Oregon"
+        }
+      ]
+    },
+
+      "Stanford": {
+      "slug": "stanford",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "at Northwestern"
+        },
+        {
+          "week": 2,
+          "opponent": "UCF"
+        },
+        {
+          "week": 3,
+          "opponent": "at USC"
+        },
+        {
+          "week": 4,
+          "opponent": "at Oregon St"
+        },
+        {
+          "week": 5,
+          "opponent": "Arizona"
+        },
+        {
+          "week": 6,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 7,
+          "opponent": "UCLA"
+        },
+        {
+          "week": 8,
+          "opponent": "Washington"
+        },
+        {
+          "week": 9,
+          "opponent": "at Washington St"
+        },
+        {
+          "week": 10,
+          "opponent": "at Colorado"
+        },
+        {
+          "week": 11,
+          "opponent": "Oregon"
+        },
+        {
+          "week": 12,
+          "opponent": "California"
+        },
+        {
+          "week": 13,
+          "opponent": "Notre Dame"
+        }
+      ]
+    },
+
+    "Washington": {
+      "slug": "washington",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "at Boise St"
+        },
+        {
+          "week": 2,
+          "opponent": "Sacramento St"
+        },
+        {
+          "week": 3,
+          "opponent": "Utah St"
+        },
+        {
+          "week": 4,
+          "opponent": "California"
+        },
+        {
+          "week": 5,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 6,
+          "opponent": "at USC"
+        },
+        {
+          "week": 7,
+          "opponent": "Oregon"
+        },
+        {
+          "week": 8,
+          "opponent": "at Stanford"
+        },
+        {
+          "week": 9,
+          "opponent": "Arizona"
+        },
+        {
+          "week": 10,
+          "opponent": "Utah"
+        },
+        {
+          "week": 11,
+          "opponent": "at Arizona St"
+        },
+        {
+          "week": 12,
+          "opponent": "at Oregon St"
+        },
+        {
+          "week": 13,
+          "opponent": "Washington St"
+        }
+      ]
+    },
+
+    "Washington St": {
+      "slug": "washington-st",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Portland St"
+        },
+        {
+          "week": 2,
+          "opponent": "at Rutgers"
+        },
+        {
+          "week": 3,
+          "opponent": "Wyoming"
+        },
+        {
+          "week": 4,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 5,
+          "opponent": "at California"
+        },
+        {
+          "week": 6,
+          "opponent": "at Oregon"
+        },
+        {
+          "week": 7,
+          "opponent": "Oregon St"
+        },
+        {
+          "week": 8,
+          "opponent": "at Arizona"
+        },
+        {
+          "week": 9,
+          "opponent": "Stanford"
+        },
+        {
+          "week": 10,
+          "opponent": "Arizona St"
+        },
+        {
+          "week": 11,
+          "opponent": "at UCLA"
+        },
+        {
+          "week": 12,
+          "opponent": "Colorado"
+        },
+        {
+          "week": 13,
+          "opponent": "at Washington"
+        }
+      ]
+    },
+
+    "Arizona": {
+      "slug": "arizona",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "UTSA"
+        },
+        {
+          "week": 2,
+          "opponent": "at Nevada"
+        },
+        {
+          "week": 3,
+          "opponent": "Northern Arizona"
+        },
+        {
+          "week": 4,
+          "opponent": "UCLA"
+        },
+        {
+          "week": 5,
+          "opponent": "at Stanford"
+        },
+        {
+          "week": 6,
+          "opponent": "Oregon St"
+        },
+        {
+          "week": 7,
+          "opponent": "at Colorado"
+        },
+        {
+          "week": 8,
+          "opponent": "Washington St"
+        },
+        {
+          "week": 9,
+          "opponent": "at Washington"
+        },
+        {
+          "week": 10,
+          "opponent": "at USC"
+        },
+        {
+          "week": 11,
+          "opponent": "Utah"
+        },
+        {
+          "week": 12,
+          "opponent": "at Arizona St"
+        },
+        {
+          "week": 13,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        }
+      ]
+    },
+
+    "Arizona St": {
+      "slug": "arizona-st",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Texas A&M"
+        },
+        {
+          "week": 2,
+          "opponent": "Cal Poly"
+        },
+        {
+          "week": 3,
+          "opponent": "New Mexico"
+        },
+        {
+          "week": 4,
+          "opponent": "USC"
+        },
+        {
+          "week": 5,
+          "opponent": "at UCLA"
+        },
+        {
+          "week": 6,
+          "opponent": "Colorado"
+        },
+        {
+          "week": 7,
+          "opponent": "at Utah"
+        },
+        {
+          "week": 8,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 9,
+          "opponent": "Oregon"
+        },
+        {
+          "week": 10,
+          "opponent": "at Washington St"
+        },
+        {
+          "week": 11,
+          "opponent": "Washington"
+        },
+        {
+          "week": 12,
+          "opponent": "Arizona"
+        },
+        {
+          "week": 13,
+          "opponent": "at California"
+        }
+      ]
+    },
+
+    "Colorado": {
+      "slug": "colorado",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "at Hawaii"
+        },
+        {
+          "week": 2,
+          "opponent": "UMass"
+        },
+        {
+          "week": 3,
+          "opponent": "Colorado St"
+        },
+        {
+          "week": 4,
+          "opponent": "Nicholls St"
+        },
+        {
+          "week": 5,
+          "opponent": "Oregon"
+        },
+        {
+          "week": 6,
+          "opponent": "at Arizona St"
+        },
+        {
+          "week": 7,
+          "opponent": "Arizona"
+        },
+        {
+          "week": 8,
+          "opponent": "at Oregon St"
+        },
+        {
+          "week": 9,
+          "opponent": "UCLA"
+        },
+        {
+          "week": 10,
+          "opponent": "Stanford"
+        },
+        {
+          "week": 11,
+          "opponent": "USC"
+        },
+        {
+          "week": 12,
+          "opponent": "at Washington St"
+        },
+        {
+          "week": 13,
+          "opponent": "at Utah"
+        }
+      ]
+    },
+
+    "UCLA": {
+      "slug": "ucla",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Virginia"
+        },
+        {
+          "week": 2,
+          "opponent": "at UNLV"
+        },
+        {
+          "week": 3,
+          "opponent": "BYU"
+        },
+        {
+          "week": 4,
+          "opponent": "at Arizona"
+        },
+        {
+          "week": 5,
+          "opponent": "Arizona St"
+        },
+        {
+          "week": 6,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 7,
+          "opponent": "at Stanford"
+        },
+        {
+          "week": 8,
+          "opponent": "California"
+        },
+        {
+          "week": 9,
+          "opponent": "Colorado"
+        },
+        {
+          "week": 10,
+          "opponent": "at Oregon St"
+        },
+        {
+          "week": 11,
+          "opponent": "Washington St"
+        },
+        {
+          "week": 12,
+          "opponent": "at Utah"
+        },
+        {
+          "week": 13,
+          "opponent": "at USC"
+        }
+      ]
+    },
+
+    "USC": {
+      "slug": "usc",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Arkansas St"
+        },
+        {
+          "week": 2,
+          "opponent": "Idaho"
+        },
+        {
+          "week": 3,
+          "opponent": "Stanford"
+        },
+        {
+          "week": 4,
+          "opponent": "at Arizona St"
+        },
+        {
+          "week": 5,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 6,
+          "opponent": "Washington"
+        },
+        {
+          "week": 7,
+          "opponent": "at Notre Dame"
+        },
+        {
+          "week": 8,
+          "opponent": "Utah"
+        },
+        {
+          "week": 9,
+          "opponent": "at California"
+        },
+        {
+          "week": 10,
+          "opponent": "Arizona"
+        },
+        {
+          "week": 11,
+          "opponent": "at Colorado"
+        },
+        {
+          "week": 12,
+          "opponent": "at Oregon"
+        },
+        {
+          "week": 13,
+          "opponent": "UCLA"
+        }
+      ]
+    },
+
+    "Utah": {
+      "slug": "utah",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Michigan"
+        },
+        {
+          "week": 2,
+          "opponent": "Utah St"
+        },
+        {
+          "week": 3,
+          "opponent": "at Fresno St"
+        },
+        {
+          "week": 4,
+          "opponent": "at Oregon"
+        },
+        {
+          "week": 5,
+          "opponent": "Bye",
+          "selected": false,
+          "available": false
+        },
+        {
+          "week": 6,
+          "opponent": "California"
+        },
+        {
+          "week": 7,
+          "opponent": "Arizona St"
+        },
+        {
+          "week": 8,
+          "opponent": "at USC"
+        },
+        {
+          "week": 9,
+          "opponent": "Oregon St"
+        },
+        {
+          "week": 10,
+          "opponent": "at Washington"
+        },
+        {
+          "week": 11,
+          "opponent": "at Arizona"
+        },
+        {
+          "week": 12,
+          "opponent": "UCLA"
+        },
+        {
+          "week": 13,
+          "opponent": "Colorado"
+        }
+      ]
+    },
+
+    "Bye": {
+      "slug": "bye",
+      "chosen": false,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent": "Bye"
+        },
+        {
+          "week": 2,
+          "opponent": "Bye"
+        },
+        {
+          "week": 3,
+          "opponent": "Bye"
+        },
+        {
+          "week": 4,
+          "opponent": "Bye"
+        },
+        {
+          "week": 5,
+          "opponent": "Bye"
+        },
+        {
+          "week": 6,
+          "opponent": "Bye"
+        },
+        {
+          "week": 7,
+          "opponent": "Bye"
+        },
+        {
+          "week": 8,
+          "opponent": "Bye"
+        },
+        {
+          "week": 9,
+          "opponent": "Bye"
+        },
+        {
+          "week": 10,
+          "opponent": "Bye"
+        },
+        {
+          "week": 11,
+          "opponent": "Bye"
+        },
+        {
+          "week": 12,
+          "opponent": "Bye"
+        },
+        {
+          "week": 13,
+          "opponent": "Bye"
+        }
+      ]
+    }
+
+
+  }
+}
+

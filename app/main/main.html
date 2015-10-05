@@ -1,3 +1,7 @@
+<div class="deadline">
+  <h4>Next deadline: Tuesday at midnight PST</h4>
+</div>
+
 <table class="">
   <thead>
     <tr>
@@ -20,7 +24,9 @@
   <tbody >
     <tr ng-repeat="team in teams" class="{{team.slug}}">
       <td>{{team.$id}}</td>
-      <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, available: game.available && !team.chosen}" ng-click="column(teams, game); select(team, teams, game)">{{game.opponent}}</td>
+      <!-- unavailable if picks[user] includes team OR picks[user] includes game.week -->
+      <!-- <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, unavailable: !game.selected && team.chosen || !game.available}" ng-click="select(team, teams, game)">{{game.opponent}}</td> -->
+      <td ng-repeat="game in team.schedule" ng-click="select(team, teams, game), toggleClass()">{{game.opponent}}</td>
       <!-- <td ng-repeat="game in games">{{games[$index][$parent.$index].awayteam}}</td> -->
 
     </tr>
