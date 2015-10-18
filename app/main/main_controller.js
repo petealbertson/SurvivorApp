@@ -36,28 +36,29 @@
       var teamsArray = [];
       picksRef.child("team").on("child_added", function(teams_snap) {
         teamsArray.push(teams_snap.val().team);
-        console.log(teamsArray);
+        // console.log(teamsArray);
       });
 
 
       $scope.pickedTeam = function(team) {
         var herp = teamsArray.indexOf(team.$id);
         if (herp != -1) {
-          console.log(herp);
           return true;
         }
-
       };
 
       $scope.pickedWeek = function(week) {
         var derp = weeksArray.indexOf(week);
         if (derp != -1) {
-          console.log(derp);
           return true;
         }
-
       };
 
+      $scope.pickedGame = function(team, game) {
+        picksRef.child("team").on("child_added", function(teams_snap) {
+
+        }
+      }
 
 
       $scope.select = function(team, teams, game) {
@@ -65,6 +66,7 @@
         // THE TEAM HAS ALREADY BEEN CHOSEN
         // if (!team.chosen && game.available) {
           // game.selected = true;
+          // console.log(game);
           // team.chosen = true;
           // ADD A PICK TO THE PICKS TABLE
           picksRef.child("week").child(game.week).set({

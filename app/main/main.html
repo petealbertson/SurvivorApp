@@ -26,7 +26,7 @@
       <td>{{team.$id}}</td>
       <!-- unavailable if picks[user] includes team OR picks[user] includes game.week -->
       <!-- <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, unavailable: !game.selected && team.chosen || !game.available}" ng-click="select(team, teams, game)">{{game.opponent}}</td> -->
-      <td ng-repeat="game in team.schedule" ng-class="{active: game.selected, unavailable: pickedWeek(game.week) || pickedTeam(team) && !game.selected}" ng-click="select(team, teams, game)">{{game.opponent}} - {{game.selected}}</td>
+      <td ng-repeat="game in team.schedule" ng-class="{active: pickedGame(team, game), unavailable: pickedWeek(game.week) || pickedTeam(team) || game.unavailable && !game.selected}" ng-click="select(team, teams, game)">{{game.opponent}} - {{game.selected}}</td>
     </tr>
   </tbody>
 </table>
