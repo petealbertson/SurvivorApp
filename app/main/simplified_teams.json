@@ -32,7 +32,7 @@
           "week": 7,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 8,
@@ -97,7 +97,7 @@
           "week": 8,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 9,
@@ -146,7 +146,7 @@
           "week": 5,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 6,
@@ -211,7 +211,7 @@
           "week": 6,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 7,
@@ -268,7 +268,7 @@
           "week": 5,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 6,
@@ -325,7 +325,7 @@
           "week": 4,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 5,
@@ -422,7 +422,7 @@
           "week": 13,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         }
       ]
     },
@@ -463,7 +463,7 @@
           "week": 8,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 9,
@@ -575,7 +575,7 @@
           "week": 6,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 7,
@@ -632,7 +632,7 @@
           "week": 5,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 6,
@@ -693,7 +693,7 @@
           "week": 5,
           "opponent": "Bye",
           "selected": false,
-          "available": false
+          "unavailable": true
         },
         {
           "week": 6,
